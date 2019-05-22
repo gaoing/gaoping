@@ -1,0 +1,124 @@
+.bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(./../../public/images/2.jpg);
+  background-size: 100% 100%; 
+  background-attachment: unset;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+.article-list{
+  overflow: hidden;
+}
+.article-list .article-item{
+  position: relative;
+  margin-top: 20px;
+  padding-top: 30px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.article-list .article-item .top{
+  position: absolute;
+  top: 14px;
+  left: -30px;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100px;
+  color: #ffffff;
+  text-align: center;
+  transform: rotate(-45deg);
+  background-color: red;
+}
+.article-list .article-item .title{
+  font-size: 20px;
+  padding: 0 100px 0 50px;
+}
+.line{
+  margin: 20px 0 0 0; 
+}
+
+.time{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+}
+.time .year{
+  font-size: 20px;
+  color: #543855;
+}
+.time .month{
+  font-size: 40px;
+  color: #cb4fcf;
+}
+.time .day{
+  font-size: 30px;
+  color: #d45725;
+}
+.article-item-content{
+  padding: 20px;
+  text-align: center;
+}
+.article-item-img{
+  height: 200px;
+  max-width: 100%;
+}
+.article-item-info{
+  position: relative;
+  padding-bottom: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #666666;
+}
+.article-item-text{
+  text-indent: 2em;
+  text-align: left;
+  line-height: 25px;
+}
+.article-item-read{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+.layui-card{
+  margin: 20px 0;
+}
+
+.tui-list .tui-item{
+  margin: 10px 0;
+}
+.sort{
+  margin-right: 10px;
+}
+.tui-list li:nth-child(1) .sort{
+  color: #d45725; 
+}
+.tui-list li:nth-child(2) .sort{
+  color: #cb4fcf;
+}
+.tui-list li:nth-child(3) .sort{
+  color: #60e72a;
+}
+.ke-list{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+} 
+.ke-list .ke-item{
+  width: 50px;
+  margin: 10px;
+  overflow: hidden;
+}
+.ke-list .ke-item .ke-item-logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 40px 0 40px 0;
+}
+.ke-list .ke-item .ke-item-name{
+  width: 50px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
