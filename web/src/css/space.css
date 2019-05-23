@@ -12,5 +12,27 @@
   z-index: -1;
 }
 .wrap{
+  width: 80%;
   padding-top: 60px;
+  margin: auto;
+}
+.wrap .cord-list{
+  margin-top: 20px;
+}
+.wrap .cord-list .cord-item{
+  background-color: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.wrap .cord-list .cord-item h3{
+  font-size: 25px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 25px;
+  border-bottom: 1px solid #999999;
+  text-align: center;
+}
+.wrap .cord-list .cord-item .cord-item-content{
+  padding: 20px;
+  text-align: center;
 }
